@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="js/script.js" defer></script>
+
+    <title>Nest Watches | Интернет-магазин часов</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container flex-container">
+        <div class="logo header-logo">
+          <a href="/">
+            <img src="img/logo.png" alt="Logo" />
+          </a>
+        </div>
+
+        <div class="menu header-menu">
+          <nav class="flex-container">
+            <ul>
+              <li><a href="#">бренды</a></li>
+              <li><a href="#">акскссуары</a></li>
+              <li><a href="#">распродажа</a></li>
+              <li><a href="#">контакты</a></li>
+              <li><a href="#">о нас</a></li>
+              <li><a href="#">отзывы</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="cart">
+          <span class="cart-info">Моя корзина:</span>
+          <img src="img/basket.png" alt="" />
+          <span class="count">1</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="search">
+      <div class="container">
+        <!-- <div class="search-box"></div> -->
+        <form>
+          <input
+            type="text"
+            name="search"
+            required
+            placeholder="Поиск по каталогу"
+          />
+          <button type="submit">
+            <!-- <img src="img/search.png" alt="ico" /> -->
+            <span class="material-icons">search</span>
+          </button>
+        </form>
+        <!-- </div> -->
+      </div>
+    </div>
+
+    <section class="section section-main">
+      <div class="container">
+        <div class="box-content">
+          <div class="section-main_sidebar">
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="img/phone.png" alt="phone" />
+                  <span>Приём заказа</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <img src="img/profile.png" alt="profile" />
+                  <span>Мой кабинет</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <img src="img/vk.png" alt="profile" />
+                  <span>Группа в Вконтакте</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="glide" id="main-carousel">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide main-carousel_slide">
+                  <div class="main-carousel_slide__title">
+                    collaboration nike and apple
+                  </div>
+
+                  <div
+                    class="slide-content"
+                    style="background-color: aquamarine"
+                  >
+                    <h2>Самые умные часы Apple Watch Series 3 with Nike</h2>
+                    <div class="button button-buy">
+                      <a href="#">изучить</a>
+                    </div>
+                    <div class="img-wrap">
+                      <img src="./img/watch1.png" alt="wtch1" />
+                    </div>
+                    <div class="product-info">весенние скидки 40%</div>
+                  </div>
+                </li>
+
+                <li class="glide__slide main-carousel_slide">
+                  <div class="main-carousel_slide__title">
+                    collaboration nike and apple
+                  </div>
+                  <div class="slide-content" style="background-color: pink">
+                    <h2>Самые умные часы Apple Watch Series 3 with Nike</h2>
+                  </div>
+                  <div class="button button-buy">
+                    <a href="#">изучить</a>
+                  </div>
+                  <div class="img-wrap">
+                    <img src="./img/watch2.png" alt="wtch1" />
+                  </div>
+                  <div class="product-info">весенние скидки 40%</div>
+                </li>
+
+                <li class="glide__slide main-carousel_slide">
+                  <div class="main-carousel_slide__title">
+                    collaboration nike and apple
+                  </div>
+                  <div class="slide-content" style="background-color: violet">
+                    <h2>Самые умные часы Apple Watch Series 3 with Nike</h2>
+                  </div>
+                  <div class="button button-buy">
+                    <a href="#">изучить</a>
+                  </div>
+                  <div class="img-wrap">
+                    <img src="./img/watch3.png" alt="wtch1" />
+                  </div>
+                  <div class="product-info">весенние скидки 40%</div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="glide__arrows" data-glide-el="controls">
+              <button
+                class="glide__arrow glide__arrow--left main-carousel_arrow"
+                data-glide-dir="<"
+              >
+                <!-- < -->
+                <span class="material-icons"> arrow_left </span>
+              </button>
+              <button
+                class="glide__arrow glide__arrow--right"
+                data-glide-dir=">"
+              >
+                <!-- > -->
+                <span class="material-icons"> arrow_right </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-products">
+      <div class="container">
+        <div class="section-title">популярные часы</div>
+        <div class="flex-container">
+          <div class="product-categories">
+            <ul>
+              <li><a href="#">Casio</a></li>
+              <li><a href="#">Orient</a></li>
+              <li><a href="#">Tisspt</a></li>
+              <li><a href="#">Seiko</a></li>
+              <li><a href="#">Royal London</a></li>
+              <li><a href="#">Hanova</a></li>
+              <li><a href="#">Q&Q</a></li>
+              <li><a href="#">Fossil</a></li>
+              <li><a href="#">Swatch</a></li>
+              <li><a href="#">Romason</a></li>
+              <li><a href="#">...</a></li>
+            </ul>
+          </div>
+          <div class="products-list">
+            <div class="products-filter">
+              <!--flex-container"> -->
+              <div class="filtered"><span>мужские -</span></div>
+              <!-- <div class="filter-property"> -->
+              <span><a href="#">Каталог</a></span>
+              <span>Каталог</span>
+              <!-- <span>|</span> -->
+              <span>Фильтр</span>
+              <!-- </div> -->
+            </div>
+
+            <div class="glide" id="products-slider">
+              <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                  <li class="glide__slide products-slider_slide">
+                    <div
+                      class="img-wrap"
+                      style="background-image: url(img/watch1.png)"
+                    >
+                      <div class="rating">
+                        <span class="material-icons"> star </span>
+                        <span class="material-icons"> star </span>
+                        <span class="material-icons"> star </span>
+                        <span class="material-icons"> star </span>
+                        <span class="material-icons"> star_border </span>
+                      </div>
+                      <div class="sale">Скидка</div>
+                    </div>
+                    <div class="product-info">
+                      <div class="product-title">Tissot V8 Quarts</div>
+                      <div class="product-price"><del>$440</del>$360</div>
+                    </div>
+                    <div class="in-stock">В наличии</div>
+                    <div class="add-to-cart">Добавить в корз<span>+</span></div>
+                  </li>
+
+                  <li class="glide__slide products-slider_slide">
+                    <div
+                      class="img-wrap"
+                      style="background-image: url('img/watch2.png')"
+                    >
+                      <div class="rating">
+                        <i class="material-icons"> star </i>
+                        <i class="material-icons"> star </i>
+                        <i class="material-icons"> star </i>
+                        <i class="material-icons"> star </i>
+                        <i class="material-icons"> star_border </i>
+                      </div>
+                    </div>
+                    <div class="product-info">
+                      <div class="product-title">Seiko Astron</div>
+                      <div class="product-price">$210</div>
+                    </div>
+                    <div class="in-stock">В наличие в магазине</div>
+                    <div class="add-to-cart">добавить в корзину</div>
+                  </li>
+
+                  <li class="glide__slide products-slider_slide">
+                    <div
+                      class="img-wrap"
+                      style="background-image: url('img/watch3.png')"
+                    >
+                      <div class="rating">
+                        <i class="material-icons"> star </i>
+                        <i class="material-icons"> star </i>
+                        <i class="material-icons"> star </i>
+                        <i class="material-icons"> star </i>
+                        <i class="material-icons"> star_border </i>
+                      </div>
+                    </div>
+                    <div class="product-info">
+                      <div class="product-title">Romanson De Arbon</div>
+                      <div class="product-price">$299</div>
+                    </div>
+                    <div class="in-stock">В магазине отсутствуют</div>
+                    <div class="add-to-cart">добавить в корзину</div>
+                  </li>
+
+                  <li class="glide__slide products-slider_slide">
+                    <div
+                      class="img-wrap"
+                      style="background-image: url('img/watch4.png')"
+                    >
+                      <div class="rating">
+                        <i class="material-icons"> star </i>
+                        <i class="material-icons"> star </i>
+                        <i class="material-icons"> star </i>
+                        <i class="material-icons"> star </i>
+                        <i class="material-icons"> star </i>
+                      </div>
+                      <div class="sale">Скидка</div>
+                    </div>
+                    <div class="product-info">
+                      <div class="product-title">Swiss Military Hanowa</div>
+                      <div class="product-price">$499</div>
+                    </div>
+                    <div class="in-stock">В наличие в магазине</div>
+                    <div class="add-to-cart">добавить в корзину</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <!-- <div class="sale-banner" > -->
+      <div class="sale-banner" style="background: url(img/1.jpg)">
+        <div class="sale-banner_title">посмотреть все часы на скидке</div>
+        <div class="button button-shop">
+          <a href="#"> перейти в каталог </a>
+        </div>
+      </div>
+    </div>
+
+    <section class="section section-categories">
+      
+    </section>
+  </body>
+</html>
